@@ -1,4 +1,4 @@
-aexports.handler = async event => {
+exports.handler = async event => {
   const id = event.path.split("/").pop()
   return {
     statusCode: 200,
