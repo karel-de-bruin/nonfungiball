@@ -102,7 +102,7 @@ exports.handler = async event => {
     },
   ]
   
-  let player = players.find(player => player.id = id)
+  let player = players.find(player => player.id == id)
   
   if (!player) {
     return {
