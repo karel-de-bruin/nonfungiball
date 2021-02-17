@@ -2,6 +2,10 @@ exports.handler = async event => {
   const id = event.path.split("/").pop()
   const players = [
     {
+        id: "0x7880000000000653000000000000000000000000000000000000000000000000",
+        name: "Nonfungiballer"
+    },
+    {
         id: "0x7880000000000653000000000000000000000000000000000000000000000001",
         name: "Adrian",
         team: "Earth NW",
