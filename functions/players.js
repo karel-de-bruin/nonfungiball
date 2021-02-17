@@ -3,6 +3,8 @@ exports.handler = async event => {
   const players = [
     {
         id: "0x3880000000000656000000000000000000000000000000000000000000000000",
+        description: "Interstellar Football on the blockchain",
+        image: "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
         name: "Nonfungiballer"
     },
     {
@@ -17,6 +19,7 @@ exports.handler = async event => {
     {
         id: "0x3880000000000656000000000000000000000000000000000000000000000002",
         name: "Brett",
+        image: "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
         team: "Earth NE",
         position: "QB",
         scill_score: 98,
