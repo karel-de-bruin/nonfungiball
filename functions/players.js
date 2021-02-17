@@ -2,14 +2,14 @@ exports.handler = async event => {
   const id = event.path.split("/").pop()
   const players = [
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000000",
+        'id': "0x3880000000000656000000000000000000000000000000000000000000000000",
         description: "Interstellar Football on the blockchain",
         image: "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
-        name: "Nonfungiballer"
+        'name': "Nonfungiballer"
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000001",
-        name: "Adrian",
+        'id': "0x3880000000000656000000000000000000000000000000000000000000000001",
+        'name': "Adrian",
         team: "Earth NW",
         position: "Coach",
         scill_score: 99,
