@@ -2,7 +2,7 @@ exports.handler = async event => {
   const id = event.path.split("/").pop()
   const players = [
     {
-        id: "7880000000000654",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000001",
         name: "Adrian",
         team: "Earth NW",
         position: "Coach",
@@ -11,7 +11,7 @@ exports.handler = async event => {
         x_factor: 35,
     },
     {
-        id: "7880000000000655",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000002",
         name: "Brett",
         team: "Earth NE",
         position: "QB",
@@ -20,16 +20,7 @@ exports.handler = async event => {
         x_factor: 24,
     },
     {
-        id: "7880000000000656",
-        name: "Brett",
-        team: "Earth NE",
-        position: "QB",
-        scill_score: "98",
-        generation: "1",
-        x_factor: "24",
-    },
-    {
-        id: "7880000000000657",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000003",
         name: "Dieter",
         team: "Earth SW",
         position: "RB",
@@ -38,7 +29,7 @@ exports.handler = async event => {
         x_factor: 25,
     },
     {
-        id: "7880000000000658",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000004",
         name: "Ed",
         team: "Earth SE",
         position: "WR",
@@ -47,7 +38,7 @@ exports.handler = async event => {
         x_factor: 87,
     },
     {
-        id: "7880000000000659",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000005",
         name: "Frik",
         team: "Mars NW",
         position: "TE",
@@ -56,7 +47,7 @@ exports.handler = async event => {
         x_factor: 89,
     },
     {
-        id: "7880000000000660",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000006",
         name: "Graeme",
         team: "Mars NE",
         position: "O Line",
@@ -65,7 +56,7 @@ exports.handler = async event => {
         x_factor: 40,
     },
     {
-        id: "7880000000000661",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000007",
         name: "Hugh",
         team: "Mars SW",
         position: "D Line",
@@ -74,7 +65,7 @@ exports.handler = async event => {
         x_factor: 47,
     },
     {
-        id: "7880000000000662",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000008",
         name: "Karel",
         team: "Mars SE",
         position: "LB",
@@ -83,7 +74,7 @@ exports.handler = async event => {
         x_factor: 97,
     },
     {
-        id: "7880000000000663",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000009",
         name: "Seb",
         team: "Venus NW",
         position: "CB",
@@ -92,7 +83,7 @@ exports.handler = async event => {
         x_factor: 44,
     },
     {
-        id: "7880000000000664",
+        id: "0x7880000000000653000000000000000000000000000000000000000000000010",
         name: "Tim",
         team: "Venus NE",
         position: "Safety",
