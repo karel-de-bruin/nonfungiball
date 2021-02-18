@@ -4,7 +4,7 @@ exports.handler = async event => {
     {
         "id": "7880000000000659000000000000000000000000000000000000000000000000",
         "name": "Nonfungiballerz",
-        "description": "Interstellar Football on the blockchain",
+        "description": "Interstellar Football on the blockchainz",
         "image": "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg"
     },
     {
