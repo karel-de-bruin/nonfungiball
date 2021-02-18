@@ -2,29 +2,31 @@ exports.handler = async event => {
   const id = event.path.split("/").pop()
   const players = [
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000000",
-        description: "Interstellar Football on the blockchain",
-        image: "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
-        name: "Nonfungiballer"
+        "id": "0x3880000000000656000000000000000000000000000000000000000000000000",
+        "name": "Nonfungiballerz",
+        "description": "Interstellar Football on the blockchain",
+        "image": "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg"
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000001",
-        name: "Adrian",
-        team: "Earth NW",
-        position: "Coach",
-        scill_score: 99,
-        generation: 1,
-        x_factor: 35,
+        "id": "0x3880000000000656000000000000000000000000000000000000000000000001",
+        "name": "Adrian",
+        "properties": {
+        "team": "Earth NW",
+        "position": "Coach",
+        "scill_score": 99,
+        "generation": 1,
+        "x_factor": 35,}
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000002",
-        name: "Brett",
-        image: "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
-        team: "Earth NE",
-        position: "QB",
-        scill_score: 98,
-        generation: 1,
-        x_factor: 24,
+        "id": "0x3880000000000656000000000000000000000000000000000000000000000002",
+        "name": "Brett",
+        "image": "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
+        "properties": {
+        "team": "Earth NE",
+        "position": "QB",
+        "scill_score": 98,
+        "generation": 1,
+        "x_factor": 24,}
     },
     {
         id: "0x3880000000000656000000000000000000000000000000000000000000000003",
