@@ -2,13 +2,13 @@ exports.handler = async event => {
   const id = event.path.split("/").pop()
   const players = [
     {
-        "id": "0x3880000000000656000000000000000000000000000000000000000000000000",
+        "id": "7880000000000659000000000000000000000000000000000000000000000000",
         "name": "Nonfungiballerz",
         "description": "Interstellar Football on the blockchain",
         "image": "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg"
     },
     {
-        "id": "0x3880000000000656000000000000000000000000000000000000000000000001",
+        "id": "7880000000000659000000000000000000000000000000000000000000000001",
         "name": "Adrian",
         "properties": {
         "team": "Earth NW",
@@ -18,7 +18,7 @@ exports.handler = async event => {
         "x_factor": 35,}
     },
     {
-        "id": "0x3880000000000656000000000000000000000000000000000000000000000002",
+        "id": "0x7880000000000659000000000000000000000000000000000000000000000002",
         "name": "Brett",
         "image": "https://i.ibb.co/V2htf2z/add5f413-3e33-424e-b740-ffbb004cbe8c.jpg",
         "properties": {
@@ -29,7 +29,7 @@ exports.handler = async event => {
         "x_factor": 24,}
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000003",
+        id: "0x7880000000000659000000000000000000000000000000000000000000000003",
         name: "Dieter",
         team: "Earth SW",
         position: "RB",
@@ -38,7 +38,7 @@ exports.handler = async event => {
         x_factor: 25,
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000004",
+        id: "7880000000000659000000000000000000000000000000000000000000000004",
         name: "Ed",
         team: "Earth SE",
         position: "WR",
@@ -47,7 +47,7 @@ exports.handler = async event => {
         x_factor: 87,
     },
     {
-        id: "0x3880000000000656000000000000000000000000000000000000000000000005",
+        id: "0x7880000000000659000000000000000000000000000000000000000000000005",
         name: "Frik",
         team: "Mars NW",
         position: "TE",
