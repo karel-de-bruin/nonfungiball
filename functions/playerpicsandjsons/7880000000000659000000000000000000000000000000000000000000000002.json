@@ -1,0 +1,11 @@
+{
+        "id": "7880000000000659000000000000000000000000000000000000000000000002",
+        "name": "Brett",
+        "image": "https://nonfungiball.netlify.app/.netlify/{id}.jpg",
+        "properties": {
+        "team": "Earth NE",
+        "position": "QB",
+        "scill_score": 98,
+        "generation": 1,
+        "x_factor": 24,}
+    }
