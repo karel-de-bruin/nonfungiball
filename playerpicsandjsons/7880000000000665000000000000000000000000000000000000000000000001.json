@@ -1,11 +1,11 @@
 {
         "name": "Adrian",
 		"image": "https://raw.githubusercontent.com/karel-de-bruin/nonfungiball/main/playerpicsandjsons/7880000000000665000000000000000000000000000000000000000000000001.jpg",
-        "properties": {
+        "properties":{
         "team": "Earth NW",
         "position": "Coach",
-        "scill_score": 99,
+        "skill_score": 99,
         "generation": 1,
-        "x_factor": 35,}
+        "x_factor": 35
+		}
     }
-	
