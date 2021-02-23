@@ -1,7 +1,6 @@
 {
-        "id": "7880000000000665000000000000000000000000000000000000000000000002",
         "name": "Brett",
-        "image": "https://raw.githubusercontent.com/karel-de-bruin/nonfungiball/main/playerpicsandjsons/{id}.jpg",
+        "image": "https://raw.githubusercontent.com/karel-de-bruin/nonfungiball/main/playerpicsandjsons/7880000000000665000000000000000000000000000000000000000000000002.jpg",
         "properties": {
         "team": "Earth NE",
         "position": "QB",
@@ -9,3 +8,4 @@
         "generation": 1,
         "x_factor": 24,}
     }
+	
